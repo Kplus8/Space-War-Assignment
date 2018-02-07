@@ -63,11 +63,27 @@
             }
         },
         {
+            "Key": "423f48c6-bc92-43b8-b404-d206c7aa66b0",
+            "Value": {
+                "id": "29f0bdc0-bc7f-4057-a69c-2ec75b0dbd59",
+                "resourcePath": "objects\\obj_ship1\\obj_ship1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "48e9e6af-2891-4160-91ec-e92400e6e23e",
             "Value": {
                 "id": "505d3465-64f6-42bc-b60a-36d9e6f170de",
                 "resourcePath": "views\\48e9e6af-2891-4160-91ec-e92400e6e23e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5a3065a8-7a36-4622-9f4d-27181b3a04e0",
+            "Value": {
+                "id": "6f842951-2e2b-4387-9c21-19036437c7c1",
+                "resourcePath": "objects\\obj_game\\obj_game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
