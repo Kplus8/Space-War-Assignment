@@ -8,5 +8,5 @@ if(cooldown == 0) {
 		xVel = (other.xVel + 100) * cos(degtorad(image_angle));
 		yVel = -(other.yVel + 100) * sin(degtorad(image_angle));
 	}
-	cooldown = missileSpeed;
+	cooldown = fireSpeed;
 }
