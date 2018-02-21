@@ -14,12 +14,12 @@ if (keyboard_check(ord("D"))) {
 if(thruster) {
 	xAcc = Thrust_Const * cos(degtorad(image_angle));
 	yAcc = -Thrust_Const * sin(degtorad(image_angle));
-	sprite_index = spr_ship1;
+	sprite_index = spr_ship1thrust;
 }
 else {
 	xAcc = 0;
 	yAcc = 0;
-	sprite_index = spr_ship2;
+	sprite_index = spr_ship1still;
 }
 
 xVel = xVel + xAcc * time_step;
