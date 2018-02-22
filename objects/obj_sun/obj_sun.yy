@@ -1,18 +1,18 @@
 {
-    "id": "5a3065a8-7a36-4622-9f4d-27181b3a04e0",
+    "id": "67fae175-bda8-4657-b85f-c224551e973d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_game",
+    "name": "obj_sun",
     "eventList": [
         {
-            "id": "cfc93b91-f285-4b57-af21-0288a162e431",
+            "id": "dda1799c-048b-4560-817d-22ed3cf439d5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 82,
-            "eventtype": 9,
-            "m_owner": "5a3065a8-7a36-4622-9f4d-27181b3a04e0"
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "67fae175-bda8-4657-b85f-c224551e973d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "631aede1-714c-4979-9f1b-7059020ae27d",
     "visible": true
 }

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 
 if (keyboard_check(vk_up))	thruster = true;
 else thruster = false;
@@ -22,6 +21,13 @@ else {
 	sprite_index = spr_ship2still;
 }
 
+xR = xPos - global.xSun;
+yR = yPos - global.ySun;
+
+rMag = sqrt( xR*xR + yR*yR);
+xAcc -= GRAV * xR / (rMag*rMag*rMag);
+yAcc -= GRAV * yR / (rMag*rMag*rMag);
+
 xVel = xVel + xAcc * time_step;
 yVel = yVel + yAcc * time_step;
 
@@ -40,3 +46,4 @@ x = xPos;
 y = yPos;
 
 if(cooldown > 0)	cooldown--;
+if(hitCooldown > 0)	hitCooldown--;
