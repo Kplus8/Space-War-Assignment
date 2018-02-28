@@ -8,12 +8,13 @@ if (keyboard_check(ord("A"))) {
 if (keyboard_check(ord("D"))) {
 	image_angle -= 2;
 }
+currentspeed = sqrt(xVel*xVel + yVel*yVel)
 
-
-if(thruster) {
+if(thruster && currentspeed < maxspeed && fuel > 0) {
 	xAcc = Thrust_Const * cos(degtorad(image_angle));
 	yAcc = -Thrust_Const * sin(degtorad(image_angle));
 	sprite_index = spr_ship1thrust;
+	fuel--;
 }
 else {
 	xAcc = 0;

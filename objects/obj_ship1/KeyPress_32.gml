@@ -1,6 +1,5 @@
-
 var inst;
-if(cooldown == 0) {
+if(cooldown == 0 && ammo > 0) {
 	inst = instance_create_layer(x, y, layer, obj_missile)
 	with(inst) {
 		image_angle = other.image_angle;
@@ -9,4 +8,5 @@ if(cooldown == 0) {
 	}
 	cooldown = fireSpeed;
 	hitCooldown = iFrames;
+	ammo--;
 }
