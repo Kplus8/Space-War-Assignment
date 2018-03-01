@@ -4,7 +4,7 @@ xVel = 0;
 yVel = 0;
 xPos = x;
 yPos = y;
-GRAV = 9810;
+GRAV = 98.1;
 time_step = 1/room_speed;
 
 missileTimer = 2*room_speed

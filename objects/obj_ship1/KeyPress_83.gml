@@ -12,6 +12,10 @@ dead = irandom_range(timeswarped, 6)
 if(dead = 6)
 {
 	instance_destroy();
+	
+	instance_create_layer(xstart, ystart, layer, obj_ship1);
+
+	global.score2++;
 }
 
 
